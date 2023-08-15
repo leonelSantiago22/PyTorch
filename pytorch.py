@@ -38,4 +38,4 @@ xgpu = th.rand((100, 100), device='cuda:0')
 xgpu.device
 ygpu = th.rand((100, 100), device='cuda:0')
 (xgpu + ygpu).device
-print(torch.cuda.is_available())
+print(th.cuda.is_available())
